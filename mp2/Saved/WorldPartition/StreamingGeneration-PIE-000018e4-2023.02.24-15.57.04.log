@@ -1,0 +1,895 @@
+[+] Containers:
+ |- [+] Container: /Game/MP2
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:01992A1B4DFCBD18EB61A19F45476F16 BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_1C1B0D097C80626901_1911539290 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=37053.051 Y=44706.562 Z=17579.430), Max=(X=37145.727 Y=44799.239 Z=17763.430) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:028708604FDDA98E1E9A27B5216B1D90 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1737505953 Label:Mortar5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31840.000 Y=48080.000 Z=17545.000), Max=(X=32040.000 Y=48280.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:03920DF94EEFC9F86CC66185D32A3DA1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1582936.893 Y=-1641898.823 Z=-1633746.864), Max=(X=1693863.107 Y=1634901.177 Z=1643053.136) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:0550E94B443D34A7B2695084EF73CA8E BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0 Label:LandscapeStreamingProxy_7_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=25200.000 Z=5872.656), Max=(X=100800.000 Y=50400.000 Z=13596.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:0B86D9844F1A764C9D3555921CD2DFEB BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1412503934 Label:Spike4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31357.353 Y=49833.271 Z=17612.885), Max=(X=31565.717 Y=49979.009 Z=17749.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:0BBCC87C48AC61982FFB799FF2665B13 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1683351947 Label:Collectable_Pickup_BP12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=23075.000 Y=51515.000 Z=19899.806), Max=(X=23225.000 Y=51665.000 Z=20125.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:0D7DFFA243DD16C5B1F9FBB6ECBB6CA1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0 Label:LandscapeStreamingProxy_7_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=75600.000 Z=8727.344), Max=(X=100800.000 Y=100800.000 Z=12871.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:0DDC8FEF4BE2623E6DE4258EC6ECD3DC BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0 Label:LandscapeStreamingProxy_4_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=75600.000 Z=2080.469), Max=(X=25200.000 Y=100800.000 Z=6055.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:0F50219442076B159B714299B6BD4A95 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0 Label:LandscapeStreamingProxy_2_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=-100800.000 Z=6572.656), Max=(X=-25200.000 Y=-75600.000 Z=11941.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:0F8EEDC345394EC763BBEA993885C07A BaseClass: NativeClass:/Script/Engine.BlockingVolume Name:BlockingVolume_UAID_1C1B0D097C809A6901_1692314162 Label:BlockingVolume SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=24005.021 Y=46565.952 Z=17585.000), Max=(X=24534.979 Y=47574.048 Z=19035.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:1132963840A0BF90C8F6FB9C03D28EDC BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0 Label:LandscapeStreamingProxy_1_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=0.000 Z=7.031), Max=(X=-50400.000 Y=25200.000 Z=4389.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:146D3E3040BAFC1FB8BF4ABC272DA94F BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0 Label:LandscapeStreamingProxy_5_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=-50400.000 Z=0.781), Max=(X=50400.000 Y=-25200.000 Z=6920.312) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:1782C56F4FD18DE7F275C6AE65657F05 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1578130944 Label:Spike11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=21597.229 Y=34002.884 Z=20042.885), Max=(X=21788.665 Y=34117.115 Z=20179.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:1AF28111448240DDAB2EABBF2988B403 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0 Label:LandscapeStreamingProxy_1_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=-100800.000 Z=6608.594), Max=(X=-50400.000 Y=-75600.000 Z=12658.594) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:1C18DE7D494342D016B686A01B18F71D BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_3_0 Label:LandscapeStreamingProxy_2_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=-25200.000 Z=0.000), Max=(X=-25200.000 Y=0.000 Z=1038.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:1CA901B9411FF28730BAB9943DBDB38B BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A16901_1889324402 Label:Spike SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32082.442 Y=42154.466 Z=17638.674), Max=(X=32273.879 Y=42268.697 Z=17775.389) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:1D06BCC344FD749B3E07EAB3F4CAF4AF BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1276306138 Label:PowerUp_Pickup_BP_Child SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33025.000 Y=49795.000 Z=17580.954), Max=(X=33175.000 Y=49945.000 Z=17755.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:1D3D26F04B6DC10BEFB5B69E5CF914C8 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:1DE8D7AC4103A2EABA11649C7FCF8ACA BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:1E7A6AD4437B2258C36CB490664720EA BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_3_0 Label:LandscapeStreamingProxy_5_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=-25200.000 Z=0.000), Max=(X=50400.000 Y=0.000 Z=3310.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:218E3B124735712D7EF272B4FB8E7FF6 BaseClass: NativeClass:/Script/Landscape.Landscape Name:Landscape_UAID_A85E45CFE404FBD100_1221515703 Label:Landscape SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:2347681E4EBE5CEECBE9DBBC1DBA11C1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0 Label:LandscapeStreamingProxy_1_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=50400.000 Z=3219.531), Max=(X=-50400.000 Y=75600.000 Z=9172.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:24E7BEB64065400366EC50BA5A3200A9 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1736036952 Label:Mortar4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33100.000 Y=48960.000 Z=17545.000), Max=(X=33300.000 Y=49160.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:25952A9742168DBDA94F10BC7AD41C6D BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1420887341 Label:Collectable_Pickup_BP6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=35525.000 Y=38675.000 Z=18649.806), Max=(X=35675.000 Y=38825.000 Z=18875.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:2AC211824D373E0F9EE73BA1645AFEA2 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1440109342 Label:Collectable_Pickup_BP7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=34075.000 Y=36365.000 Z=18609.806), Max=(X=34225.000 Y=36515.000 Z=18835.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:2CE12F874AA39D020A0F4BA5739BD305 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:2D25D44D481345FBF8570EB1B7BD1A3E BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0 Label:LandscapeStreamingProxy_0_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=50400.000 Z=5450.781), Max=(X=-75600.000 Y=75600.000 Z=11130.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:2DB3FDE64E76043E654E15809FAF173E BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0 Label:LandscapeStreamingProxy_7_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=-25200.000 Z=5280.469), Max=(X=100800.000 Y=0.000 Z=11586.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:2ECDB0F14C38AB1F3D274DAFA9305640 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_3_0 Label:LandscapeStreamingProxy_0_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=-25200.000 Z=966.406), Max=(X=-75600.000 Y=0.000 Z=9202.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:31A5522843888425734F278F802A023B BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_2_0 Label:LandscapeStreamingProxy_3_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-50400.000 Z=-0.781), Max=(X=0.000 Y=-25200.000 Z=1993.750) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:32DDDAF945E661594B761F842823F664 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0 Label:LandscapeStreamingProxy_7_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=-100800.000 Z=7522.656), Max=(X=100800.000 Y=-75600.000 Z=13553.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:3344E5BC4334A2B478F00C858C073959 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1338422141 Label:PowerUp_Pickup_BP_Child4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33895.000 Y=37345.000 Z=18610.954), Max=(X=34045.000 Y=37495.000 Z=18785.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:39864D6448F622A9683C9794F66762A5 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1432795936 Label:Spike6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32007.353 Y=55323.271 Z=18612.885), Max=(X=32215.717 Y=55469.009 Z=18749.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:39A094604356ACFB26567D91DF16E665 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1287667139 Label:PowerUp_Pickup_BP_Child2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=30845.000 Y=57645.000 Z=18440.954), Max=(X=30995.000 Y=57795.000 Z=18615.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:39F0C4EA4AC6F620731F8A985F1BA794 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0 Label:LandscapeStreamingProxy_0_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=0.000 Z=847.656), Max=(X=-75600.000 Y=25200.000 Z=9271.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:3C4DFB204B420000AE616E8D01688EBD BaseClass: NativeClass:/Script/Engine.TriggerVolume Name:TriggerVolume_UAID_1C1B0D097C80A86901_1622591675 Label:TriggerVolume SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5905.000 Y=45785.000 Z=20780.000), Max=(X=7255.000 Y=47635.000 Z=22080.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:3E25F0A8458FB2B2C4FDCCBEFBB79D7C BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0 Label:LandscapeStreamingProxy_7_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=50400.000 Z=9205.469), Max=(X=100800.000 Y=75600.000 Z=14989.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:3F36F6E343853B5EFB38DF82C9F47BC1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_6_0 Label:LandscapeStreamingProxy_3_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=50400.000 Z=189.062), Max=(X=0.000 Y=75600.000 Z=5252.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:43DA93A54F3C6B8E95C25185663F1489 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1757184957 Label:Mortar9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=20060.000 Y=41470.000 Z=18875.000), Max=(X=20260.000 Y=41670.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:442893EB41C5E252C5C3A6893024A7B1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C80806901_1163837578 Label:SM_Kit_Stairs_B5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19038.999 Y=49862.586 Z=18909.992), Max=(X=20650.050 Y=52494.926 Z=19937.523) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:4442BEBD46A38037D2DFB38B726F8C2E BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1343223933 Label:Spike3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33497.353 Y=37720.991 Z=18692.885), Max=(X=33705.717 Y=37866.729 Z=18829.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:46A29806469824C0618DAD88DBCE1F7B BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0 Label:LandscapeStreamingProxy_2_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=-50400.000 Z=0.000), Max=(X=-25200.000 Y=-25200.000 Z=5260.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:4A360CEC4460B2D69D050F99BD66F331 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1316539932 Label:Spike2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31587.353 Y=39020.991 Z=18692.885), Max=(X=31795.717 Y=39166.729 Z=18829.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:4D9AE693421FB4AF0B84F3ABB4069600 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0 Label:LandscapeStreamingProxy_4_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-100800.000 Z=4621.094), Max=(X=25200.000 Y=-75600.000 Z=11314.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:503C93654217A5A2D3C9A78A7EFD36D6 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C807F6901_1706888400 Label:SM_Kit_Stairs_B3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32304.515 Y=39444.853 Z=17579.992), Max=(X=33105.485 Y=42068.681 Z=18607.523) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:53EB82BD49D3CAD7F0DC73A4161584BC BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1183954159 Label:Collectable_Pickup_BP4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=35285.000 Y=53235.000 Z=18439.806), Max=(X=35435.000 Y=53385.000 Z=18665.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:54181C3345C0AEDFF8BAA2B9E3FA4303 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_UAID_1C1B0D097C80676901_1977380173 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=26093.405 Y=45006.489 Z=15763.826), Max=(X=29343.405 Y=48206.489 Z=19763.826) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:5467074D485A504DB8C24CAD0B80AB77 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0 Label:LandscapeStreamingProxy_1_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=-50400.000 Z=1038.281), Max=(X=-50400.000 Y=-25200.000 Z=8925.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:565205A14B72B1C79932C09B8AA708FB BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0 Label:LandscapeStreamingProxy_2_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=75600.000 Z=5080.469), Max=(X=-25200.000 Y=100800.000 Z=13166.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:5755C2B24DEFED2BE6CF30B0B94684A8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C805B6901_1627654056 Label:SM_FloatingIsland_L SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=22575.990 Y=41072.167 Z=13917.568), Max=(X=38904.472 Y=51300.248 Z=17579.865) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:5896E50B4E5C60322E129BAA569305ED BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1350393142 Label:PowerUp_Pickup_BP_Child5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=37455.000 Y=39885.000 Z=18630.954), Max=(X=37605.000 Y=40035.000 Z=18805.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:58E9C3B64D12DE671F037881A2E880D7 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0 Label:LandscapeStreamingProxy_2_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=-75600.000 Z=1993.750), Max=(X=-25200.000 Y=-50400.000 Z=8566.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:59C0CF754809E4A615B6B893483C5902 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0 Label:LandscapeStreamingProxy_0_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=-75600.000 Z=5449.219), Max=(X=-75600.000 Y=-50400.000 Z=8761.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:5B7603B04818216277D958A0B96B5E45 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1692809948 Label:Spike12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=21967.861 Y=54511.802 Z=19892.885), Max=(X=22186.822 Y=54684.619 Z=20029.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:5C483AD7457FCF8C55871D883FCE7EAF BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0 Label:LandscapeStreamingProxy_6_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=-75600.000 Z=5639.844), Max=(X=75600.000 Y=-50400.000 Z=10830.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:638D1CB341F94FCF74510AB1ACC43471 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1522183941 Label:Collectable_Pickup_BP9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=23175.000 Y=32085.000 Z=20069.806), Max=(X=23325.000 Y=32235.000 Z=20295.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:64972DB740F13CE5190779A0B9CBA4EA BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0 Label:LandscapeStreamingProxy_1_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=25200.000 Z=131.250), Max=(X=-50400.000 Y=50400.000 Z=8019.531) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:68D8D3E940BF7B6B52CC3F9F6DA00F25 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1675877946 Label:Collectable_Pickup_BP11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19155.000 Y=55785.000 Z=19879.806), Max=(X=19305.000 Y=55935.000 Z=20105.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:6A2123D140BAFFDBF2BA49A372A2741D BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1422757935 Label:Spike5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=30507.861 Y=52365.381 Z=18492.885), Max=(X=30726.822 Y=52538.198 Z=18629.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:6EA7AA70400E5B415B0AE9B830F420B0 BaseClass: NativeClass:/Script/Engine.BlockingVolume Name:BlockingVolume_UAID_1C1B0D097C809B6901_1210575339 Label:BlockingVolume2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=11650.000 Y=46065.000 Z=18915.000), Max=(X=12250.000 Y=47515.000 Z=20665.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:6F77DF4E483D4B5A103A83BF8FB30F3A BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0 Label:LandscapeStreamingProxy_6_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=75600.000 Z=7785.156), Max=(X=75600.000 Y=100800.000 Z=11791.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:707D0D104A1A6DBFBBD050AD016E1BA7 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0 Label:LandscapeStreamingProxy_4_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=-100.000), Max=(X=25200.000 Y=25200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:70907731435C02351CBB688B173A7887 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C807F6901_1465756399 Label:SM_Kit_Stairs_B2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31095.938 Y=50166.607 Z=17579.994), Max=(X=32300.744 Y=52664.968 Z=18402.018) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:7596AF2C4D40ED3615A0248075B9C569 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1672359945 Label:Collectable_Pickup_BP10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=22985.000 Y=55225.000 Z=19919.806), Max=(X=23135.000 Y=55375.000 Z=20145.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:766FC4BF419DF7B4C5C201851CDD1685 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1754227955 Label:Mortar7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=18520.000 Y=40890.000 Z=18875.000), Max=(X=18720.000 Y=41090.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:79D7740848C07BDA3675E88259301C33 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1740521954 Label:Mortar6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=29710.000 Y=49340.000 Z=17545.000), Max=(X=29910.000 Y=49540.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:7CA4C3FD4B8DCDB1BE4B5B922A5F9AA8 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1755715956 Label:Mortar8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=21500.000 Y=40960.000 Z=18875.000), Max=(X=21700.000 Y=41160.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:7DCB8EFE498FFD99EE494192AD474A2A BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0 Label:LandscapeStreamingProxy_2_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=0.000 Z=0.000), Max=(X=-25200.000 Y=25200.000 Z=164.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:7E8DF15942F955BCCAB7DB92DF810682 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0 Label:LandscapeStreamingProxy_6_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=25200.000 Z=2264.062), Max=(X=75600.000 Y=50400.000 Z=9232.031) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:801635964DC728D2D2A3C8AEE12AD6DE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C806C6901_1187850063 Label:SM_Kit_Stairs_B SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=16796.134 Y=47301.131 Z=18139.997), Max=(X=18003.050 Y=47972.509 Z=18551.009) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:81C80C83427580F4BBDEF88F557B8F9E BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/AICharacter.AICharacter_C NativeClass:/Script/Engine.Character Name:AICharacter_C_UAID_1C1B0D097C80676901_1930503171 Label:AICharacter SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=27829.411 Y=46353.337 Z=17589.046), Max=(X=27942.422 Y=46462.445 Z=17799.046) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:82111EBA4245874D247823848B4F1385 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_3_0 Label:LandscapeStreamingProxy_4_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-25200.000 Z=-100.000), Max=(X=25200.000 Y=0.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:83CD9E0B4741741D139767A8EC49B809 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0 Label:LandscapeStreamingProxy_0_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=-50400.000 Z=5807.031), Max=(X=-75600.000 Y=-25200.000 Z=9500.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:84B8BD9E4521F7A34224819740A45CA0 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/AICharacter.AICharacter_C NativeClass:/Script/Engine.Character Name:AICharacter_C_UAID_1C1B0D097C80A56901_1953395143 Label:AICharacter2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=14435.969 Y=46716.500 Z=18856.802), Max=(X=14519.352 Y=46806.414 Z=19066.802) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:86CD868B4D294F95E7F12283BB07ED1F BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0 Label:LandscapeStreamingProxy_6_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=-100800.000 Z=5939.844), Max=(X=75600.000 Y=-75600.000 Z=10986.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:87184C7F45B16AFDB24868B24172272E BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0 Label:LandscapeStreamingProxy_6_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=-50400.000 Z=3310.156), Max=(X=75600.000 Y=-25200.000 Z=11691.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:8828D7D54BD387EDC0DF7191D486FAF5 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1413607340 Label:Collectable_Pickup_BP5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=30915.000 Y=35925.000 Z=18599.806), Max=(X=31065.000 Y=36075.000 Z=18825.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:8DE603264C3E497D33EABCA47DEF582C BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0 Label:LandscapeStreamingProxy_1_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=-75600.000 Z=5113.281), Max=(X=-50400.000 Y=-50400.000 Z=7863.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:8E5BA17B4086F5FC0291D1A92F7F73F4 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0 Label:LandscapeStreamingProxy_5_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=75600.000 Z=2653.906), Max=(X=50400.000 Y=100800.000 Z=9796.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:8F0C78FE4D46BC07F60A91A87475E7E8 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0 Label:LandscapeStreamingProxy_4_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-75600.000 Z=106.250), Max=(X=25200.000 Y=-50400.000 Z=6735.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:9105F82D4A053C4E3330C293F1E67274 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C807F6901_1866987401 Label:SM_Kit_Stairs_B4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7358.862 Y=46130.922 Z=18909.983), Max=(X=12150.200 Y=47359.078 Z=21067.798) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:939A2F334C34B3E545C41391CBDF2D38 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0 Label:LandscapeStreamingProxy_5_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=-100800.000 Z=4950.781), Max=(X=50400.000 Y=-75600.000 Z=8967.969) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:983FDE604EB0A3A794A36A976D366792 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1760108958 Label:Mortar10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=20210.000 Y=48390.000 Z=18875.000), Max=(X=20410.000 Y=48590.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:986A09ED4961A78E34EE1981B2281B28 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0 Label:LandscapeStreamingProxy_6_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=0.000 Z=893.750), Max=(X=75600.000 Y=25200.000 Z=7369.531) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:988456E1464ED6902163CB8467235B9D BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0 Label:LandscapeStreamingProxy_0_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=75600.000 Z=8263.281), Max=(X=-75600.000 Y=100800.000 Z=13605.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:99BFEDB14FEA349E7859A5A65F02425C BaseClass:/Game/LearningKit_Robots/Blueprints/WorldBuilding/BP_FloatIsland_a.BP_FloatIsland_a_C NativeClass:/Script/Engine.Actor Name:BP_FloatIsland_a_C_UAID_1C1B0D097C807F6901_1419343396 Label:BP_FloatIsland_a2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=16778.003 Y=51013.637 Z=19737.500), Max=(X=25262.192 Y=57703.428 Z=21536.325) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:9AA48BD04CB873661E75B0973B2BF04A BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_5_0 Label:LandscapeStreamingProxy_3_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=25200.000 Z=-0.781), Max=(X=0.000 Y=50400.000 Z=1284.375) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:9C73710A434FD4583E950EACD9707470 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0 Label:LandscapeStreamingProxy_7_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=-50400.000 Z=9125.781), Max=(X=100800.000 Y=-25200.000 Z=12972.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:9CBBDFD8486812AAE8770CB093DB7460 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_4_0 Label:LandscapeStreamingProxy_3_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=0.000 Z=-100.000), Max=(X=0.000 Y=25200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:9D700C724D9E37A62B6A4BA9A938CC86 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1507245939 Label:Collectable_Pickup_BP SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=20685.000 Y=35575.000 Z=20049.806), Max=(X=20835.000 Y=35725.000 Z=20275.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:9F1FD8B14EFA2FFE8955F0893F732321 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0 Label:LandscapeStreamingProxy_4_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-50400.000 Z=0.000), Max=(X=25200.000 Y=-25200.000 Z=1064.062) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:9F5FBE5049937545ACA36E91F91526EB BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1533687942 Label:Spike9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19777.229 Y=38402.884 Z=20032.885), Max=(X=19968.665 Y=38517.115 Z=20169.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:9F626E9945C885FC7889749EDF891EEB BaseClass:/Game/LearningKit_Robots/Blueprints/WorldBuilding/BP_FloatIsland_a.BP_FloatIsland_a_C NativeClass:/Script/Engine.Actor Name:BP_FloatIsland_a_C_UAID_1C1B0D097C807F6901_1416078394 Label:BP_FloatIsland_a SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=30753.501 Y=35443.501 Z=18517.500), Max=(X=37746.501 Y=41036.501 Z=20316.325) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:A126C67340A095633BF76D87403B7E17 BaseClass: NativeClass:/Script/NavigationSystem.RecastNavMesh Name:RecastNavMesh_UAID_1C1B0D097C80676901-Default Label:RecastNavMesh-Default SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:A35DA04D499AEDD6011C6B8293B4BE2B BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0 Label:LandscapeStreamingProxy_1_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=75600.000 Z=6619.531), Max=(X=-50400.000 Y=100800.000 Z=13197.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:A6E4B2F64282645AA7756082104E8B9D BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_7_0 Label:LandscapeStreamingProxy_3_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=75600.000 Z=3127.344), Max=(X=0.000 Y=100800.000 Z=10647.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:A882235E449D71AC064105B4EA3F9518 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0 Label:LandscapeStreamingProxy_2_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=25200.000 Z=0.000), Max=(X=-25200.000 Y=50400.000 Z=3609.375) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:A98AFAE64D3C184B4F77D09001EC88DE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C80806901_1264173579 Label:SM_Kit_Stairs_B6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19999.612 Y=38663.165 Z=18909.992), Max=(X=20640.388 Y=40374.357 Z=19937.523) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:AAAC6B5742760A58C2206DB37E44683C BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:AE565297405B1809622B45ADC2750875 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0 Label:LandscapeStreamingProxy_5_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=0.000 Z=0.000), Max=(X=50400.000 Y=25200.000 Z=2303.125) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:AF63A781494D11037EEE0E8D5237E583 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1554011943 Label:Spike10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19677.229 Y=40502.884 Z=18972.885), Max=(X=19868.665 Y=40617.115 Z=19109.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:B0E3D56F46177253EEFE85A57AC65398 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_3_0 Label:LandscapeStreamingProxy_6_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=-25200.000 Z=870.312), Max=(X=75600.000 Y=0.000 Z=9125.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:B0F3C90D4F2BE7C56B80C59A194DC8C5 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1477478938 Label:Spike8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19587.861 Y=52601.802 Z=19972.885), Max=(X=19806.822 Y=52774.619 Z=20109.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:B604844948BFF24FCAEFC18CD69A7FF7 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0 Label:LandscapeStreamingProxy_7_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=-75600.000 Z=8610.156), Max=(X=100800.000 Y=-50400.000 Z=11772.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:B6C3DAF747D776D42CBB8BADECF57A47 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0 Label:LandscapeStreamingProxy_5_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=-75600.000 Z=1064.062), Max=(X=50400.000 Y=-50400.000 Z=6511.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:B865D61B473CDD196F56BDA8F1637BEE BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0 Label:LandscapeStreamingProxy_5_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=50400.000 Z=1202.344), Max=(X=50400.000 Y=75600.000 Z=8677.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:B9E92F9C437526A88CEB59B2694F0297 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0 Label:LandscapeStreamingProxy_2_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=50400.000 Z=1284.375), Max=(X=-25200.000 Y=75600.000 Z=7450.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:BF1F4ABD450E284FE2D9D7A1FD6B53FE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C806B6901_2063603884 Label:SM_FloatingIsland_L2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=9203.051 Y=38743.557 Z=11585.136), Max=(X=25643.930 Y=53992.001 Z=18909.730) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:C05781A44D7C770E1C0960A3CA1C133F BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0 Label:LandscapeStreamingProxy_4_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=25200.000 Z=-0.781), Max=(X=25200.000 Y=50400.000 Z=1202.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:C08A14624000EB194F9392A655EE0F44 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0 Label:LandscapeStreamingProxy_0_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=7269.531), Max=(X=-75600.000 Y=-75600.000 Z=12157.031) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:C4B8044C4E370EFC781B6CBB3FF97A47 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1304578140 Label:PowerUp_Pickup_BP_Child3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32535.000 Y=55905.000 Z=18430.954), Max=(X=32685.000 Y=56055.000 Z=18605.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:C56C132644701862CBD638A5DD4778F1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_1_0 Label:LandscapeStreamingProxy_3_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-75600.000 Z=142.188), Max=(X=0.000 Y=-50400.000 Z=8805.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:C5BE7A844D821610BF68FA846185D941 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0 Label:LandscapeStreamingProxy_4_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=50400.000 Z=100.000), Max=(X=25200.000 Y=75600.000 Z=3294.531) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:C6F946A64C1AD9B47730AB8C8DCC158F BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1732781951 Label:Mortar3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32570.000 Y=44290.000 Z=17545.000), Max=(X=32770.000 Y=44490.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:CB7D041946B5C322BABE21BD32C2357A BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1173353157 Label:Collectable_Pickup_BP2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32355.000 Y=56575.000 Z=18669.806), Max=(X=32505.000 Y=56725.000 Z=18895.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:CE044BB2490F83B12CA4B999BD8619B1 BaseClass: NativeClass:/Script/Engine.TriggerVolume Name:TriggerVolume_UAID_1C1B0D097C80A26901_1126564579 Label:TriggerVolume SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-15295.000 Y=26120.000 Z=7005.000), Max=(X=42255.000 Y=65320.000 Z=10155.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:CEE3A1E747AF7C30962541B90414995E BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1179739158 Label:Collectable_Pickup_BP3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=29305.000 Y=57375.000 Z=18649.806), Max=(X=29455.000 Y=57525.000 Z=18875.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:D3A26FC24DB7AEC2398504962A50B0CD BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1763849960 Label:Mortar12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=17790.000 Y=50030.000 Z=18875.000), Max=(X=17990.000 Y=50230.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:D3FB7383421AAEFD3DB6F8B1E415A9FE BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- Guid:D463464649056669BEE7E49A9036098B BaseClass:/Game/LearningKit_Robots/Blueprints/WorldBuilding/BP_FloatIsland_b.BP_FloatIsland_b_C NativeClass:/Script/Engine.Actor Name:BP_FloatIsland_b_C_UAID_1C1B0D097C807F6901_1417694395 Label:BP_FloatIsland_b2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=16623.501 Y=31753.501 Z=19262.128), Max=(X=23616.501 Y=38746.501 Z=21471.587) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:D4DFC669454460B96A3E998BD74384C3 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1514054940 Label:Collectable_Pickup_BP8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=17015.000 Y=37305.000 Z=19979.806), Max=(X=17165.000 Y=37455.000 Z=20205.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:D78A87704113B05FD89E7D9CEDB2A7CD BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80AD6901_1733496557 Label:Spike13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=36912.885 Y=44907.229 Z=17602.885), Max=(X=37027.116 Y=45098.665 Z=17739.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:D7EBD1B64A395FA249930BA618DBFE6D BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0 Label:LandscapeStreamingProxy_0_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=25200.000 Z=3900.781), Max=(X=-75600.000 Y=50400.000 Z=10327.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:DAD24B8342595A293131EAB4C929054E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C80A56901_2004359144 Label:SM_FloatingIsland_L_Grass SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1714.373 Y=44249.876 Z=20724.737), Max=(X=8848.680 Y=50552.332 Z=20909.865) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:DC43A67244732C412AFFA1B3074A05AE BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0 Label:LandscapeStreamingProxy_7_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=0.000 Z=5091.406), Max=(X=100800.000 Y=25200.000 Z=9228.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:E046CD244DFAE23A4C600C9246727AE0 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1460312937 Label:Spike7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=18727.861 Y=49941.802 Z=18972.885), Max=(X=18946.822 Y=50114.619 Z=19109.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:E6C4C89747E65FCDCCFD648F081F47C2 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_3_0 Label:LandscapeStreamingProxy_3_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=-100.000), Max=(X=0.000 Y=0.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:E94AF9A34B60728E49479A83377AF974 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1725562949 Label:Mortar SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31020.000 Y=43380.000 Z=17545.000), Max=(X=31220.000 Y=43580.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:ED8F52614D3EE48C9A66B288A280A31E BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1731133950 Label:Mortar2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33780.000 Y=43220.000 Z=17545.000), Max=(X=33980.000 Y=43420.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:EE1EABE64F49DD8C98D612AEA45FE665 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C806B6901_2114213885 Label:SM_Kit_Stairs_A SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=21062.901 Y=45551.000 Z=17580.000), Max=(X=24483.472 Y=47554.566 Z=19018.532) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:F04485974435AC0E13136A86C6111DB3 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_UAID_1C1B0D097C80A86901_1657922676 Label:NavMeshBoundsVolume2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12740.000 Y=44920.000 Z=17060.000), Max=(X=16440.000 Y=48620.000 Z=20760.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:F2E3F2AC494C94762A828CBDCC7B2C3D BaseClass:/Game/LearningKit_Robots/Blueprints/WorldBuilding/BP_FloatIsland_b.BP_FloatIsland_b_C NativeClass:/Script/Engine.Actor Name:BP_FloatIsland_b_C_UAID_1C1B0D097C807F6901_1341292391 Label:BP_FloatIsland_b SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=28603.476 Y=52054.630 Z=17787.349), Max=(X=35547.261 Y=58998.415 Z=19826.850) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:F44EC15E41F7E50EAB60248AFF0224F6 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1761884959 Label:Mortar11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=18630.000 Y=48310.000 Z=18875.000), Max=(X=18830.000 Y=48510.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- Guid:F698883443058A9F883FB7852DDEE8F1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0 Label:LandscapeStreamingProxy_6_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=50400.000 Z=5341.406), Max=(X=75600.000 Y=75600.000 Z=10853.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:F947F18B49858105B55E08A21E067F09 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0 Label:LandscapeStreamingProxy_5_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=25200.000 Z=0.000), Max=(X=50400.000 Y=50400.000 Z=5888.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:FC95DF384AD9CF7A5647699C01E254A2 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_3_0 Label:LandscapeStreamingProxy_1_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=-25200.000 Z=17.188), Max=(X=-50400.000 Y=0.000 Z=6477.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- Guid:FE635E06438230491F5EA2AE5A1DB0AC BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_0_0 Label:LandscapeStreamingProxy_3_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-100800.000 Z=6453.906), Max=(X=0.000 Y=-75600.000 Z=11442.969) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:86CD868B4D294F95E7F12283BB07ED1F BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0 Label:LandscapeStreamingProxy_6_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=-100800.000 Z=5939.844), Max=(X=75600.000 Y=-75600.000 Z=10986.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  1]
+ |   |   |   |- Guid:82111EBA4245874D247823848B4F1385 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_3_0 Label:LandscapeStreamingProxy_4_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-25200.000 Z=-100.000), Max=(X=25200.000 Y=0.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  2]
+ |   |   |   |- Guid:5368FABB47D6D9580DAECA8B0417BF92 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers-1 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [  3]
+ |   |   |   |- Guid:1AF28111448240DDAB2EABBF2988B403 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0 Label:LandscapeStreamingProxy_1_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=-100800.000 Z=6608.594), Max=(X=-50400.000 Y=-75600.000 Z=12658.594) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  4]
+ |   |   |   |- Guid:8E5BA17B4086F5FC0291D1A92F7F73F4 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0 Label:LandscapeStreamingProxy_5_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=75600.000 Z=2653.906), Max=(X=50400.000 Y=100800.000 Z=9796.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  5]
+ |   |   |   |- Guid:58E9C3B64D12DE671F037881A2E880D7 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0 Label:LandscapeStreamingProxy_2_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=-75600.000 Z=1993.750), Max=(X=-25200.000 Y=-50400.000 Z=8566.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  6]
+ |   |   |   |- Guid:1C18DE7D494342D016B686A01B18F71D BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_3_0 Label:LandscapeStreamingProxy_2_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=-25200.000 Z=0.000), Max=(X=-25200.000 Y=0.000 Z=1038.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  7]
+ |   |   |   |- Guid:A882235E449D71AC064105B4EA3F9518 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0 Label:LandscapeStreamingProxy_2_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=25200.000 Z=0.000), Max=(X=-25200.000 Y=50400.000 Z=3609.375) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  8]
+ |   |   |   |- Guid:146D3E3040BAFC1FB8BF4ABC272DA94F BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0 Label:LandscapeStreamingProxy_5_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=-50400.000 Z=0.781), Max=(X=50400.000 Y=-25200.000 Z=6920.312) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [  9]
+ |   |   |   |- Guid:9F1FD8B14EFA2FFE8955F0893F732321 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0 Label:LandscapeStreamingProxy_4_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-50400.000 Z=0.000), Max=(X=25200.000 Y=-25200.000 Z=1064.062) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 10]
+ |   |   |   |- Guid:99BFEDB14FEA349E7859A5A65F02425C BaseClass:/Game/LearningKit_Robots/Blueprints/WorldBuilding/BP_FloatIsland_a.BP_FloatIsland_a_C NativeClass:/Script/Engine.Actor Name:BP_FloatIsland_a_C_UAID_1C1B0D097C807F6901_1419343396 Label:BP_FloatIsland_a2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=16778.003 Y=51013.637 Z=19737.500), Max=(X=25262.192 Y=57703.428 Z=21536.325) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 11]
+ |   |   |   |- Guid:9C73710A434FD4583E950EACD9707470 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0 Label:LandscapeStreamingProxy_7_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=-50400.000 Z=9125.781), Max=(X=100800.000 Y=-25200.000 Z=12972.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 12]
+ |   |   |   |- Guid:3F36F6E343853B5EFB38DF82C9F47BC1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_6_0 Label:LandscapeStreamingProxy_3_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=50400.000 Z=189.062), Max=(X=0.000 Y=75600.000 Z=5252.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 13]
+ |   |   |   |- Guid:C5BE7A844D821610BF68FA846185D941 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0 Label:LandscapeStreamingProxy_4_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=50400.000 Z=100.000), Max=(X=25200.000 Y=75600.000 Z=3294.531) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 14]
+ |   |   |   |- Guid:9CBBDFD8486812AAE8770CB093DB7460 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_4_0 Label:LandscapeStreamingProxy_3_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=0.000 Z=-100.000), Max=(X=0.000 Y=25200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 15]
+ |   |   |   |- Guid:83CD9E0B4741741D139767A8EC49B809 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0 Label:LandscapeStreamingProxy_0_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=-50400.000 Z=5807.031), Max=(X=-75600.000 Y=-25200.000 Z=9500.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 16]
+ |   |   |   |- Guid:03920DF94EEFC9F86CC66185D32A3DA1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_A4AE111137DC54FB00_1240666663 Label:SM_SkySphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-1582936.893 Y=-1641898.823 Z=-1633746.864), Max=(X=1693863.107 Y=1634901.177 Z=1643053.136) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 17]
+ |   |   |   |- Guid:801635964DC728D2D2A3C8AEE12AD6DE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C806C6901_1187850063 Label:SM_Kit_Stairs_B SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=16796.134 Y=47301.131 Z=18139.997), Max=(X=18003.050 Y=47972.509 Z=18551.009) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 18]
+ |   |   |   |- Guid:218E3B124735712D7EF272B4FB8E7FF6 BaseClass: NativeClass:/Script/Landscape.Landscape Name:Landscape_UAID_A85E45CFE404FBD100_1221515703 Label:Landscape SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=100.000), Max=(X=-100800.000 Y=-100800.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 19]
+ |   |   |   |- Guid:7DCB8EFE498FFD99EE494192AD474A2A BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0 Label:LandscapeStreamingProxy_2_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=0.000 Z=0.000), Max=(X=-25200.000 Y=25200.000 Z=164.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 20]
+ |   |   |   |- Guid:9D700C724D9E37A62B6A4BA9A938CC86 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1507245939 Label:Collectable_Pickup_BP SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=20685.000 Y=35575.000 Z=20049.806), Max=(X=20835.000 Y=35725.000 Z=20275.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 21]
+ |   |   |   |- Guid:8DE603264C3E497D33EABCA47DEF582C BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0 Label:LandscapeStreamingProxy_1_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=-75600.000 Z=5113.281), Max=(X=-50400.000 Y=-50400.000 Z=7863.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 22]
+ |   |   |   |- Guid:1132963840A0BF90C8F6FB9C03D28EDC BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0 Label:LandscapeStreamingProxy_1_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=0.000 Z=7.031), Max=(X=-50400.000 Y=25200.000 Z=4389.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 23]
+ |   |   |   |- Guid:87184C7F45B16AFDB24868B24172272E BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0 Label:LandscapeStreamingProxy_6_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=-50400.000 Z=3310.156), Max=(X=75600.000 Y=-25200.000 Z=11691.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 24]
+ |   |   |   |- Guid:707D0D104A1A6DBFBBD050AD016E1BA7 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0 Label:LandscapeStreamingProxy_4_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=-100.000), Max=(X=25200.000 Y=25200.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 25]
+ |   |   |   |- Guid:3E25F0A8458FB2B2C4FDCCBEFBB79D7C BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0 Label:LandscapeStreamingProxy_7_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=50400.000 Z=9205.469), Max=(X=100800.000 Y=75600.000 Z=14989.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 26]
+ |   |   |   |- Guid:0550E94B443D34A7B2695084EF73CA8E BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0 Label:LandscapeStreamingProxy_7_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=25200.000 Z=5872.656), Max=(X=100800.000 Y=50400.000 Z=13596.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 27]
+ |   |   |   |- Guid:FC95DF384AD9CF7A5647699C01E254A2 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_3_0 Label:LandscapeStreamingProxy_1_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=-25200.000 Z=17.188), Max=(X=-50400.000 Y=0.000 Z=6477.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 28]
+ |   |   |   |- Guid:939A2F334C34B3E545C41391CBDF2D38 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0 Label:LandscapeStreamingProxy_5_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=-100800.000 Z=4950.781), Max=(X=50400.000 Y=-75600.000 Z=8967.969) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 29]
+ |   |   |   |- Guid:AE565297405B1809622B45ADC2750875 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0 Label:LandscapeStreamingProxy_5_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=0.000 Z=0.000), Max=(X=50400.000 Y=25200.000 Z=2303.125) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 30]
+ |   |   |   |- Guid:0D7DFFA243DD16C5B1F9FBB6ECBB6CA1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0 Label:LandscapeStreamingProxy_7_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=75600.000 Z=8727.344), Max=(X=100800.000 Y=100800.000 Z=12871.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 31]
+ |   |   |   |- Guid:C05781A44D7C770E1C0960A3CA1C133F BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0 Label:LandscapeStreamingProxy_4_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=25200.000 Z=-0.781), Max=(X=25200.000 Y=50400.000 Z=1202.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 32]
+ |   |   |   |- Guid:A126C67340A095633BF76D87403B7E17 BaseClass: NativeClass:/Script/NavigationSystem.RecastNavMesh Name:RecastNavMesh_UAID_1C1B0D097C80676901-Default Label:RecastNavMesh-Default SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 33]
+ |   |   |   |- Guid:54181C3345C0AEDFF8BAA2B9E3FA4303 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_UAID_1C1B0D097C80676901_1977380173 Label:NavMeshBoundsVolume SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=26093.405 Y=45006.489 Z=15763.826), Max=(X=29343.405 Y=48206.489 Z=19763.826) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 34]
+ |   |   |   |- Guid:B9E92F9C437526A88CEB59B2694F0297 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0 Label:LandscapeStreamingProxy_2_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=50400.000 Z=1284.375), Max=(X=-25200.000 Y=75600.000 Z=7450.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 35]
+ |   |   |   |- Guid:F947F18B49858105B55E08A21E067F09 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0 Label:LandscapeStreamingProxy_5_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=25200.000 Z=0.000), Max=(X=50400.000 Y=50400.000 Z=5888.281) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 36]
+ |   |   |   |- Guid:2ECDB0F14C38AB1F3D274DAFA9305640 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_3_0 Label:LandscapeStreamingProxy_0_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=-25200.000 Z=966.406), Max=(X=-75600.000 Y=0.000 Z=9202.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 37]
+ |   |   |   |- Guid:B604844948BFF24FCAEFC18CD69A7FF7 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0 Label:LandscapeStreamingProxy_7_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=-75600.000 Z=8610.156), Max=(X=100800.000 Y=-50400.000 Z=11772.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 38]
+ |   |   |   |- Guid:BF1F4ABD450E284FE2D9D7A1FD6B53FE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C806B6901_2063603884 Label:SM_FloatingIsland_L2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=9203.051 Y=38743.557 Z=11585.136), Max=(X=25643.930 Y=53992.001 Z=18909.730) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 39]
+ |   |   |   |- Guid:8F0C78FE4D46BC07F60A91A87475E7E8 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0 Label:LandscapeStreamingProxy_4_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-75600.000 Z=106.250), Max=(X=25200.000 Y=-50400.000 Z=6735.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 40]
+ |   |   |   |- Guid:5C483AD7457FCF8C55871D883FCE7EAF BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0 Label:LandscapeStreamingProxy_6_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=-75600.000 Z=5639.844), Max=(X=75600.000 Y=-50400.000 Z=10830.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 41]
+ |   |   |   |- Guid:9AA48BD04CB873661E75B0973B2BF04A BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_5_0 Label:LandscapeStreamingProxy_3_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=25200.000 Z=-0.781), Max=(X=0.000 Y=50400.000 Z=1284.375) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 42]
+ |   |   |   |- Guid:A6E4B2F64282645AA7756082104E8B9D BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_7_0 Label:LandscapeStreamingProxy_3_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=75600.000 Z=3127.344), Max=(X=0.000 Y=100800.000 Z=10647.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 43]
+ |   |   |   |- Guid:0F50219442076B159B714299B6BD4A95 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0 Label:LandscapeStreamingProxy_2_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=-100800.000 Z=6572.656), Max=(X=-25200.000 Y=-75600.000 Z=11941.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 44]
+ |   |   |   |- Guid:59C0CF754809E4A615B6B893483C5902 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0 Label:LandscapeStreamingProxy_0_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=-75600.000 Z=5449.219), Max=(X=-75600.000 Y=-50400.000 Z=8761.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 45]
+ |   |   |   |- Guid:F698883443058A9F883FB7852DDEE8F1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0 Label:LandscapeStreamingProxy_6_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=50400.000 Z=5341.406), Max=(X=75600.000 Y=75600.000 Z=10853.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 46]
+ |   |   |   |- Guid:E6C4C89747E65FCDCCFD648F081F47C2 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_3_0 Label:LandscapeStreamingProxy_3_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-25200.000 Z=-100.000), Max=(X=0.000 Y=0.000 Z=100.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 47]
+ |   |   |   |- Guid:39F0C4EA4AC6F620731F8A985F1BA794 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0 Label:LandscapeStreamingProxy_0_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=0.000 Z=847.656), Max=(X=-75600.000 Y=25200.000 Z=9271.094) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 48]
+ |   |   |   |- Guid:B865D61B473CDD196F56BDA8F1637BEE BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0 Label:LandscapeStreamingProxy_5_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=50400.000 Z=1202.344), Max=(X=50400.000 Y=75600.000 Z=8677.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 49]
+ |   |   |   |- Guid:DC43A67244732C412AFFA1B3074A05AE BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0 Label:LandscapeStreamingProxy_7_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=0.000 Z=5091.406), Max=(X=100800.000 Y=25200.000 Z=9228.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 50]
+ |   |   |   |- Guid:31A5522843888425734F278F802A023B BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_2_0 Label:LandscapeStreamingProxy_3_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-50400.000 Z=-0.781), Max=(X=0.000 Y=-25200.000 Z=1993.750) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 51]
+ |   |   |   |- Guid:AAAC6B5742760A58C2206DB37E44683C BaseClass: NativeClass:/Script/Engine.DirectionalLight Name:DirectionalLight_UAID_A85E45CFE40401D200_1470382761 Label:DirectionalLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-4398046511104.000 Y=-4398046511104.000 Z=-4398046511104.000), Max=(X=4398046511104.000 Y=4398046511104.000 Z=4398046511104.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 52]
+ |   |   |   |- Guid:81C80C83427580F4BBDEF88F557B8F9E BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/AICharacter.AICharacter_C NativeClass:/Script/Engine.Character Name:AICharacter_C_UAID_1C1B0D097C80676901_1930503171 Label:AICharacter SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=27829.411 Y=46353.337 Z=17589.046), Max=(X=27942.422 Y=46462.445 Z=17799.046) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 53]
+ |   |   |   |- Guid:6F77DF4E483D4B5A103A83BF8FB30F3A BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0 Label:LandscapeStreamingProxy_6_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=75600.000 Z=7785.156), Max=(X=75600.000 Y=100800.000 Z=11791.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 54]
+ |   |   |   |- Guid:1DE8D7AC4103A2EABA11649C7FCF8ACA BaseClass: NativeClass:/Script/Engine.SkyLight Name:SkyLight_UAID_A85E45CFE40401D200_1470380759 Label:SkyLight SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 55]
+ |   |   |   |- Guid:B0E3D56F46177253EEFE85A57AC65398 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_3_0 Label:LandscapeStreamingProxy_6_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=-25200.000 Z=870.312), Max=(X=75600.000 Y=0.000 Z=9125.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 56]
+ |   |   |   |- Guid:84B8BD9E4521F7A34224819740A45CA0 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/AICharacter.AICharacter_C NativeClass:/Script/Engine.Character Name:AICharacter_C_UAID_1C1B0D097C80A56901_1953395143 Label:AICharacter2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=14435.969 Y=46716.500 Z=18856.802), Max=(X=14519.352 Y=46806.414 Z=19066.802) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 57]
+ |   |   |   |- Guid:5755C2B24DEFED2BE6CF30B0B94684A8 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C805B6901_1627654056 Label:SM_FloatingIsland_L SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=22575.990 Y=41072.167 Z=13917.568), Max=(X=38904.472 Y=51300.248 Z=17579.865) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 58]
+ |   |   |   |- Guid:1D3D26F04B6DC10BEFB5B69E5CF914C8 BaseClass: NativeClass:/Script/Engine.VolumetricCloud Name:VolumetricCloud_UAID_A85E45CFE40401D200_1470381760 Label:VolumetricCloud SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 59]
+ |   |   |   |- Guid:C56C132644701862CBD638A5DD4778F1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_1_0 Label:LandscapeStreamingProxy_3_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-75600.000 Z=142.188), Max=(X=0.000 Y=-50400.000 Z=8805.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 60]
+ |   |   |   |- Guid:FE635E06438230491F5EA2AE5A1DB0AC BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_0_0 Label:LandscapeStreamingProxy_3_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-25200.000 Y=-100800.000 Z=6453.906), Max=(X=0.000 Y=-75600.000 Z=11442.969) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 61]
+ |   |   |   |- Guid:565205A14B72B1C79932C09B8AA708FB BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0 Label:LandscapeStreamingProxy_2_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=75600.000 Z=5080.469), Max=(X=-25200.000 Y=100800.000 Z=13166.406) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 62]
+ |   |   |   |- Guid:2D25D44D481345FBF8570EB1B7BD1A3E BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0 Label:LandscapeStreamingProxy_0_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=50400.000 Z=5450.781), Max=(X=-75600.000 Y=75600.000 Z=11130.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 63]
+ |   |   |   |- Guid:32DDDAF945E661594B761F842823F664 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0 Label:LandscapeStreamingProxy_7_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=-100800.000 Z=7522.656), Max=(X=100800.000 Y=-75600.000 Z=13553.906) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 64]
+ |   |   |   |- Guid:9F626E9945C885FC7889749EDF891EEB BaseClass:/Game/LearningKit_Robots/Blueprints/WorldBuilding/BP_FloatIsland_a.BP_FloatIsland_a_C NativeClass:/Script/Engine.Actor Name:BP_FloatIsland_a_C_UAID_1C1B0D097C807F6901_1416078394 Label:BP_FloatIsland_a SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=30753.501 Y=35443.501 Z=18517.500), Max=(X=37746.501 Y=41036.501 Z=20316.325) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 65]
+ |   |   |   |- Guid:D3FB7383421AAEFD3DB6F8B1E415A9FE BaseClass: NativeClass:/Script/Engine.ExponentialHeightFog Name:ExponentialHeightFog_UAID_A85E45CFE40401D200_1470382763 Label:ExponentialHeightFog SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=-5600.000 Y=-50.000 Z=-6850.000), Max=(X=-5600.000 Y=-50.000 Z=-6850.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 66]
+ |   |   |   |- Guid:7E8DF15942F955BCCAB7DB92DF810682 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0 Label:LandscapeStreamingProxy_6_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=25200.000 Z=2264.062), Max=(X=75600.000 Y=50400.000 Z=9232.031) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 67]
+ |   |   |   |- Guid:A35DA04D499AEDD6011C6B8293B4BE2B BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0 Label:LandscapeStreamingProxy_1_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=75600.000 Z=6619.531), Max=(X=-50400.000 Y=100800.000 Z=13197.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 68]
+ |   |   |   |- Guid:1E7A6AD4437B2258C36CB490664720EA BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_3_0 Label:LandscapeStreamingProxy_5_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=-25200.000 Z=0.000), Max=(X=50400.000 Y=0.000 Z=3310.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 69]
+ |   |   |   |- Guid:D7EBD1B64A395FA249930BA618DBFE6D BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0 Label:LandscapeStreamingProxy_0_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=25200.000 Z=3900.781), Max=(X=-75600.000 Y=50400.000 Z=10327.344) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 70]
+ |   |   |   |- Guid:986A09ED4961A78E34EE1981B2281B28 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0 Label:LandscapeStreamingProxy_6_4_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=50400.000 Y=0.000 Z=893.750), Max=(X=75600.000 Y=25200.000 Z=7369.531) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 71]
+ |   |   |   |- Guid:46A29806469824C0618DAD88DBCE1F7B BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0 Label:LandscapeStreamingProxy_2_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-50400.000 Y=-50400.000 Z=0.000), Max=(X=-25200.000 Y=-25200.000 Z=5260.156) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 72]
+ |   |   |   |- Guid:B6C3DAF747D776D42CBB8BADECF57A47 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0 Label:LandscapeStreamingProxy_5_1_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=25200.000 Y=-75600.000 Z=1064.062), Max=(X=50400.000 Y=-50400.000 Z=6511.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 73]
+ |   |   |   |- Guid:2DB3FDE64E76043E654E15809FAF173E BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0 Label:LandscapeStreamingProxy_7_3_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=75600.000 Y=-25200.000 Z=5280.469), Max=(X=100800.000 Y=0.000 Z=11586.719) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 74]
+ |   |   |   |- Guid:64972DB740F13CE5190779A0B9CBA4EA BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0 Label:LandscapeStreamingProxy_1_5_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=25200.000 Z=131.250), Max=(X=-50400.000 Y=50400.000 Z=8019.531) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 75]
+ |   |   |   |- Guid:2347681E4EBE5CEECBE9DBBC1DBA11C1 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0 Label:LandscapeStreamingProxy_1_6_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=50400.000 Z=3219.531), Max=(X=-50400.000 Y=75600.000 Z=9172.656) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 76]
+ |   |   |   |- Guid:C08A14624000EB194F9392A655EE0F44 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0 Label:LandscapeStreamingProxy_0_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=7269.531), Max=(X=-75600.000 Y=-75600.000 Z=12157.031) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 77]
+ |   |   |   |- Guid:F2E3F2AC494C94762A828CBDCC7B2C3D BaseClass:/Game/LearningKit_Robots/Blueprints/WorldBuilding/BP_FloatIsland_b.BP_FloatIsland_b_C NativeClass:/Script/Engine.Actor Name:BP_FloatIsland_b_C_UAID_1C1B0D097C807F6901_1341292391 Label:BP_FloatIsland_b SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=28603.476 Y=52054.630 Z=17787.349), Max=(X=35547.261 Y=58998.415 Z=19826.850) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 78]
+ |   |   |   |- Guid:EE1EABE64F49DD8C98D612AEA45FE665 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C806B6901_2114213885 Label:SM_Kit_Stairs_A SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=21062.901 Y=45551.000 Z=17580.000), Max=(X=24483.472 Y=47554.566 Z=19018.532) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 79]
+ |   |   |   |- Guid:01992A1B4DFCBD18EB61A19F45476F16 BaseClass: NativeClass:/Script/Engine.PlayerStart Name:PlayerStart_UAID_1C1B0D097C80626901_1911539290 Label:PlayerStart SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=37053.051 Y=44706.562 Z=17579.430), Max=(X=37145.727 Y=44799.239 Z=17763.430) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 80]
+ |   |   |   |- Guid:0DDC8FEF4BE2623E6DE4258EC6ECD3DC BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0 Label:LandscapeStreamingProxy_4_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=75600.000 Z=2080.469), Max=(X=25200.000 Y=100800.000 Z=6055.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 81]
+ |   |   |   |- Guid:5467074D485A504DB8C24CAD0B80AB77 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0 Label:LandscapeStreamingProxy_1_2_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-75600.000 Y=-50400.000 Z=1038.281), Max=(X=-50400.000 Y=-25200.000 Z=8925.781) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 82]
+ |   |   |   |- Guid:4D9AE693421FB4AF0B84F3ABB4069600 BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0 Label:LandscapeStreamingProxy_4_0_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=0.000 Y=-100800.000 Z=4621.094), Max=(X=25200.000 Y=-75600.000 Z=11314.844) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 83]
+ |   |   |   |- Guid:988456E1464ED6902163CB8467235B9D BaseClass: NativeClass:/Script/Landscape.LandscapeStreamingProxy Name:LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0 Label:LandscapeStreamingProxy_0_7_0 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-100800.000 Y=75600.000 Z=8263.281), Max=(X=-75600.000 Y=100800.000 Z=13605.469) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 84]
+ |   |   |   |- Guid:2CE12F874AA39D020A0F4BA5739BD305 BaseClass: NativeClass:/Script/Engine.SkyAtmosphere Name:SkyAtmosphere_UAID_A85E45CFE40401D200_1470382762 Label:SkyAtmosphere SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 FolderPath:Lighting FolderGuid:B7E9BD5B45A652654791988DEF54CCEB
+ |   |   |- [+] [ 85]
+ |   |   |   |- Guid:D463464649056669BEE7E49A9036098B BaseClass:/Game/LearningKit_Robots/Blueprints/WorldBuilding/BP_FloatIsland_b.BP_FloatIsland_b_C NativeClass:/Script/Engine.Actor Name:BP_FloatIsland_b_C_UAID_1C1B0D097C807F6901_1417694395 Label:BP_FloatIsland_b2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=16623.501 Y=31753.501 Z=19262.128), Max=(X=23616.501 Y=38746.501 Z=21471.587) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 86]
+ |   |   |   |- Guid:70907731435C02351CBB688B173A7887 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C807F6901_1465756399 Label:SM_Kit_Stairs_B2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31095.938 Y=50166.607 Z=17579.994), Max=(X=32300.744 Y=52664.968 Z=18402.018) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 87]
+ |   |   |   |- Guid:503C93654217A5A2D3C9A78A7EFD36D6 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C807F6901_1706888400 Label:SM_Kit_Stairs_B3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32304.515 Y=39444.853 Z=17579.992), Max=(X=33105.485 Y=42068.681 Z=18607.523) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 88]
+ |   |   |   |- Guid:9105F82D4A053C4E3330C293F1E67274 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C807F6901_1866987401 Label:SM_Kit_Stairs_B4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=7358.862 Y=46130.922 Z=18909.983), Max=(X=12150.200 Y=47359.078 Z=21067.798) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 89]
+ |   |   |   |- Guid:442893EB41C5E252C5C3A6893024A7B1 BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C80806901_1163837578 Label:SM_Kit_Stairs_B5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19038.999 Y=49862.586 Z=18909.992), Max=(X=20650.050 Y=52494.926 Z=19937.523) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 90]
+ |   |   |   |- Guid:A98AFAE64D3C184B4F77D09001EC88DE BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C80806901_1264173579 Label:SM_Kit_Stairs_B6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19999.612 Y=38663.165 Z=18909.992), Max=(X=20640.388 Y=40374.357 Z=19937.523) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [ 91]
+ |   |   |   |- Guid:7596AF2C4D40ED3615A0248075B9C569 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1672359945 Label:Collectable_Pickup_BP10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=22985.000 Y=55225.000 Z=19919.806), Max=(X=23135.000 Y=55375.000 Z=20145.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 92]
+ |   |   |   |- Guid:CEE3A1E747AF7C30962541B90414995E BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1179739158 Label:Collectable_Pickup_BP3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=29305.000 Y=57375.000 Z=18649.806), Max=(X=29455.000 Y=57525.000 Z=18875.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 93]
+ |   |   |   |- Guid:CB7D041946B5C322BABE21BD32C2357A BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1173353157 Label:Collectable_Pickup_BP2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32355.000 Y=56575.000 Z=18669.806), Max=(X=32505.000 Y=56725.000 Z=18895.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 94]
+ |   |   |   |- Guid:53EB82BD49D3CAD7F0DC73A4161584BC BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1183954159 Label:Collectable_Pickup_BP4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=35285.000 Y=53235.000 Z=18439.806), Max=(X=35435.000 Y=53385.000 Z=18665.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 95]
+ |   |   |   |- Guid:0F8EEDC345394EC763BBEA993885C07A BaseClass: NativeClass:/Script/Engine.BlockingVolume Name:BlockingVolume_UAID_1C1B0D097C809A6901_1692314162 Label:BlockingVolume SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=24005.021 Y=46565.952 Z=17585.000), Max=(X=24534.979 Y=47574.048 Z=19035.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 96]
+ |   |   |   |- Guid:6EA7AA70400E5B415B0AE9B830F420B0 BaseClass: NativeClass:/Script/Engine.BlockingVolume Name:BlockingVolume_UAID_1C1B0D097C809B6901_1210575339 Label:BlockingVolume2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=11650.000 Y=46065.000 Z=18915.000), Max=(X=12250.000 Y=47515.000 Z=20665.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 97]
+ |   |   |   |- Guid:8828D7D54BD387EDC0DF7191D486FAF5 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1413607340 Label:Collectable_Pickup_BP5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=30915.000 Y=35925.000 Z=18599.806), Max=(X=31065.000 Y=36075.000 Z=18825.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 98]
+ |   |   |   |- Guid:25952A9742168DBDA94F10BC7AD41C6D BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1420887341 Label:Collectable_Pickup_BP6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=35525.000 Y=38675.000 Z=18649.806), Max=(X=35675.000 Y=38825.000 Z=18875.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [ 99]
+ |   |   |   |- Guid:2AC211824D373E0F9EE73BA1645AFEA2 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1440109342 Label:Collectable_Pickup_BP7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=34075.000 Y=36365.000 Z=18609.806), Max=(X=34225.000 Y=36515.000 Z=18835.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [100]
+ |   |   |   |- Guid:1CA901B9411FF28730BAB9943DBDB38B BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A16901_1889324402 Label:Spike SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32082.442 Y=42154.466 Z=17638.674), Max=(X=32273.879 Y=42268.697 Z=17775.389) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [101]
+ |   |   |   |- Guid:CE044BB2490F83B12CA4B999BD8619B1 BaseClass: NativeClass:/Script/Engine.TriggerVolume Name:TriggerVolume_UAID_1C1B0D097C80A26901_1126564579 Label:TriggerVolume SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=-15295.000 Y=26120.000 Z=7005.000), Max=(X=42255.000 Y=65320.000 Z=10155.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [102]
+ |   |   |   |- Guid:68D8D3E940BF7B6B52CC3F9F6DA00F25 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1675877946 Label:Collectable_Pickup_BP11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19155.000 Y=55785.000 Z=19879.806), Max=(X=19305.000 Y=55935.000 Z=20105.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [103]
+ |   |   |   |- Guid:0BBCC87C48AC61982FFB799FF2665B13 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1683351947 Label:Collectable_Pickup_BP12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=23075.000 Y=51515.000 Z=19899.806), Max=(X=23225.000 Y=51665.000 Z=20125.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [104]
+ |   |   |   |- Guid:D4DFC669454460B96A3E998BD74384C3 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1514054940 Label:Collectable_Pickup_BP8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=17015.000 Y=37305.000 Z=19979.806), Max=(X=17165.000 Y=37455.000 Z=20205.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [105]
+ |   |   |   |- Guid:638D1CB341F94FCF74510AB1ACC43471 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/Collectable_Pickup_BP.Collectable_Pickup_BP_C NativeClass:/Script/Engine.Actor Name:Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1522183941 Label:Collectable_Pickup_BP9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=23175.000 Y=32085.000 Z=20069.806), Max=(X=23325.000 Y=32235.000 Z=20295.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [106]
+ |   |   |   |- Guid:E94AF9A34B60728E49479A83377AF974 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1725562949 Label:Mortar SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31020.000 Y=43380.000 Z=17545.000), Max=(X=31220.000 Y=43580.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [107]
+ |   |   |   |- Guid:983FDE604EB0A3A794A36A976D366792 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1760108958 Label:Mortar10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=20210.000 Y=48390.000 Z=18875.000), Max=(X=20410.000 Y=48590.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [108]
+ |   |   |   |- Guid:F44EC15E41F7E50EAB60248AFF0224F6 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1761884959 Label:Mortar11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=18630.000 Y=48310.000 Z=18875.000), Max=(X=18830.000 Y=48510.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [109]
+ |   |   |   |- Guid:D3A26FC24DB7AEC2398504962A50B0CD BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1763849960 Label:Mortar12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=17790.000 Y=50030.000 Z=18875.000), Max=(X=17990.000 Y=50230.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [110]
+ |   |   |   |- Guid:ED8F52614D3EE48C9A66B288A280A31E BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1731133950 Label:Mortar2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33780.000 Y=43220.000 Z=17545.000), Max=(X=33980.000 Y=43420.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [111]
+ |   |   |   |- Guid:C6F946A64C1AD9B47730AB8C8DCC158F BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1732781951 Label:Mortar3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32570.000 Y=44290.000 Z=17545.000), Max=(X=32770.000 Y=44490.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [112]
+ |   |   |   |- Guid:24E7BEB64065400366EC50BA5A3200A9 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1736036952 Label:Mortar4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33100.000 Y=48960.000 Z=17545.000), Max=(X=33300.000 Y=49160.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [113]
+ |   |   |   |- Guid:028708604FDDA98E1E9A27B5216B1D90 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1737505953 Label:Mortar5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31840.000 Y=48080.000 Z=17545.000), Max=(X=32040.000 Y=48280.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [114]
+ |   |   |   |- Guid:79D7740848C07BDA3675E88259301C33 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1740521954 Label:Mortar6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=29710.000 Y=49340.000 Z=17545.000), Max=(X=29910.000 Y=49540.000 Z=17671.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [115]
+ |   |   |   |- Guid:766FC4BF419DF7B4C5C201851CDD1685 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1754227955 Label:Mortar7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=18520.000 Y=40890.000 Z=18875.000), Max=(X=18720.000 Y=41090.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [116]
+ |   |   |   |- Guid:7CA4C3FD4B8DCDB1BE4B5B922A5F9AA8 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1755715956 Label:Mortar8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=21500.000 Y=40960.000 Z=18875.000), Max=(X=21700.000 Y=41160.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [117]
+ |   |   |   |- Guid:43DA93A54F3C6B8E95C25185663F1489 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Mortar.Mortar_C NativeClass:/Script/Engine.Actor Name:Mortar_C_UAID_1C1B0D097C80A46901_1757184957 Label:Mortar9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=20060.000 Y=41470.000 Z=18875.000), Max=(X=20260.000 Y=41670.000 Z=19001.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [118]
+ |   |   |   |- Guid:1D06BCC344FD749B3E07EAB3F4CAF4AF BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1276306138 Label:PowerUp_Pickup_BP_Child SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33025.000 Y=49795.000 Z=17580.954), Max=(X=33175.000 Y=49945.000 Z=17755.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [119]
+ |   |   |   |- Guid:39A094604356ACFB26567D91DF16E665 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1287667139 Label:PowerUp_Pickup_BP_Child2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=30845.000 Y=57645.000 Z=18440.954), Max=(X=30995.000 Y=57795.000 Z=18615.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [120]
+ |   |   |   |- Guid:C4B8044C4E370EFC781B6CBB3FF97A47 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1304578140 Label:PowerUp_Pickup_BP_Child3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32535.000 Y=55905.000 Z=18430.954), Max=(X=32685.000 Y=56055.000 Z=18605.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [121]
+ |   |   |   |- Guid:AF63A781494D11037EEE0E8D5237E583 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1554011943 Label:Spike10 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19677.229 Y=40502.884 Z=18972.885), Max=(X=19868.665 Y=40617.115 Z=19109.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [122]
+ |   |   |   |- Guid:1782C56F4FD18DE7F275C6AE65657F05 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1578130944 Label:Spike11 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=21597.229 Y=34002.884 Z=20042.885), Max=(X=21788.665 Y=34117.115 Z=20179.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [123]
+ |   |   |   |- Guid:5B7603B04818216277D958A0B96B5E45 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1692809948 Label:Spike12 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=21967.861 Y=54511.802 Z=19892.885), Max=(X=22186.822 Y=54684.619 Z=20029.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [124]
+ |   |   |   |- Guid:4A360CEC4460B2D69D050F99BD66F331 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1316539932 Label:Spike2 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31587.353 Y=39020.991 Z=18692.885), Max=(X=31795.717 Y=39166.729 Z=18829.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [125]
+ |   |   |   |- Guid:4442BEBD46A38037D2DFB38B726F8C2E BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1343223933 Label:Spike3 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33497.353 Y=37720.991 Z=18692.885), Max=(X=33705.717 Y=37866.729 Z=18829.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [126]
+ |   |   |   |- Guid:0B86D9844F1A764C9D3555921CD2DFEB BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1412503934 Label:Spike4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=31357.353 Y=49833.271 Z=17612.885), Max=(X=31565.717 Y=49979.009 Z=17749.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [127]
+ |   |   |   |- Guid:6A2123D140BAFFDBF2BA49A372A2741D BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1422757935 Label:Spike5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=30507.861 Y=52365.381 Z=18492.885), Max=(X=30726.822 Y=52538.198 Z=18629.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [128]
+ |   |   |   |- Guid:39864D6448F622A9683C9794F66762A5 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1432795936 Label:Spike6 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=32007.353 Y=55323.271 Z=18612.885), Max=(X=32215.717 Y=55469.009 Z=18749.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [129]
+ |   |   |   |- Guid:E046CD244DFAE23A4C600C9246727AE0 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1460312937 Label:Spike7 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=18727.861 Y=49941.802 Z=18972.885), Max=(X=18946.822 Y=50114.619 Z=19109.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [130]
+ |   |   |   |- Guid:B0F3C90D4F2BE7C56B80C59A194DC8C5 BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1477478938 Label:Spike8 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19587.861 Y=52601.802 Z=19972.885), Max=(X=19806.822 Y=52774.619 Z=20109.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [131]
+ |   |   |   |- Guid:9F5FBE5049937545ACA36E91F91526EB BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80A46901_1533687942 Label:Spike9 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=19777.229 Y=38402.884 Z=20032.885), Max=(X=19968.665 Y=38517.115 Z=20169.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [132]
+ |   |   |   |- Guid:3344E5BC4334A2B478F00C858C073959 BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1338422141 Label:PowerUp_Pickup_BP_Child4 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=33895.000 Y=37345.000 Z=18610.954), Max=(X=34045.000 Y=37495.000 Z=18785.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [133]
+ |   |   |   |- Guid:5896E50B4E5C60322E129BAA569305ED BaseClass:/Game/LearningKit_Games/Blueprints/Pickups/PowerUp_Pickup_BP_Child.PowerUp_Pickup_BP_Child_C NativeClass:/Script/Engine.Actor Name:PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1350393142 Label:PowerUp_Pickup_BP_Child5 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=37455.000 Y=39885.000 Z=18630.954), Max=(X=37605.000 Y=40035.000 Z=18805.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [134]
+ |   |   |   |- Guid:F04485974435AC0E13136A86C6111DB3 BaseClass: NativeClass:/Script/NavigationSystem.NavMeshBoundsVolume Name:NavMeshBoundsVolume_UAID_1C1B0D097C80A86901_1657922676 Label:NavMeshBoundsVolume2 SpatiallyLoaded:0 Bounds:IsValid=true, Min=(X=12740.000 Y=44920.000 Z=17060.000), Max=(X=16440.000 Y=48620.000 Z=20760.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [135]
+ |   |   |   |- Guid:DAD24B8342595A293131EAB4C929054E BaseClass: NativeClass:/Script/Engine.StaticMeshActor Name:StaticMeshActor_UAID_1C1B0D097C80A56901_2004359144 Label:SM_FloatingIsland_L_Grass SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=1714.373 Y=44249.876 Z=20724.737), Max=(X=8848.680 Y=50552.332 Z=20909.865) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:1
+ |   |   |- [+] [136]
+ |   |   |   |- Guid:3C4DFB204B420000AE616E8D01688EBD BaseClass: NativeClass:/Script/Engine.TriggerVolume Name:TriggerVolume_UAID_1C1B0D097C80A86901_1622591675 Label:TriggerVolume SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=5905.000 Y=45785.000 Z=20780.000), Max=(X=7255.000 Y=47635.000 Z=22080.000) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |   |   |- [+] [137]
+ |   |   |   |- Guid:D78A87704113B05FD89E7D9CEDB2A7CD BaseClass:/Game/LearningKit_Games/Blueprints/Enemies/Spike.Spike_C NativeClass:/Script/Engine.Actor Name:Spike_C_UAID_1C1B0D097C80AD6901_1733496557 Label:Spike13 SpatiallyLoaded:1 Bounds:IsValid=true, Min=(X=36912.885 Y=44907.229 Z=17602.885), Max=(X=37027.116 Y=45098.665 Z=17739.600) RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 0x0000000000000000
+ |   |-    Bounds: IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=-100.000), Max=(X=100800.000 Y=100800.000 Z=22080.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/MP2
+----------------------------------------------------------------------------------------------------------------
+MP2 - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+Always loaded Actor Count: 159 
+
+----------------------------------------------------------------------------------------------------------------
+MP2 - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 25600
+      World Bounds: IsValid=true, Min=(X=-100800.000 Y=-100800.000 Z=-100.000), Max=(X=100800.000 Y=100800.000 Z=22080.000)
+     Loading Range: 76800.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+
+[+] Grid Levels: 4
+ |- Level  0: Cell Count   64 | Cell Size   25600 | Actor Count  120 (96.0%)
+ |- Level  1: Cell Count    0 | Cell Size   51200 | Actor Count    0 (0.0%)
+ |- Level  2: Cell Count    1 | Cell Size  102400 | Actor Count    5 (4.0%)
+ |- Level  3: Cell Count    0 | Cell Size  204800 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+ |- [+] Content of Cell MainGrid_L0_X2_Y-4
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5939.844 Y=10986.719
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_0_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/40/DAGHVYA8OB42NR8548380Y
+ |- [+] Content of Cell MainGrid_L0_X0_Y-1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=-100.000 Y=100.000
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_3_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/BF/VDY3G3F70GTO38YT6JZ0Y4
+ |- [+] Content of Cell MainGrid_L0_X-3_Y-4
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=6608.594 Y=12658.594
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_0_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/HD/RYCRHLUG7O3AZATAMI03R6
+ |- [+] Content of Cell MainGrid_L0_X1_Y3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=2653.906 Y=9796.094
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_7_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/NW/HHO15PH2MC3W8WI78P9VGK
+ |- [+] Content of Cell MainGrid_L0_X-2_Y-3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=1993.750 Y=8566.406
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_1_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/PX/I9GMO92TX7PD3YWZG3UXC6
+ |- [+] Content of Cell MainGrid_L0_X-2_Y-1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=0.000 Y=1038.281
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_3_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/QE/0L5F4VOJC7UEALKNIAMH6P
+ |- [+] Content of Cell MainGrid_L0_X-2_Y1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=0.000 Y=3609.375
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_5_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/Y1/J00ZWX5MPLMV8J34W9Z8YK
+ |- [+] Content of Cell MainGrid_L0_X1_Y-2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=0.781 Y=6920.312
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_2_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/1/AE/4MOOEW9LUVNK2HINHGEM9V
+ |- [+] Content of Cell MainGrid_L0_X0_Y-2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=0.000 Y=1064.062
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_2_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/1/LT/065NDVUX1HC0AWZS2LMAPN
+ |- [+] Content of Cell MainGrid_L0_X3_Y-2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=9125.781 Y=12972.656
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_2_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/2/3W/W95WGO2EC0T4BE03KQRPS9
+ |- [+] Content of Cell MainGrid_L0_X-1_Y2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=189.062 Y=5252.344
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_6_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/2/H0/LD4QW3H33NC8070HRKD7HK
+ |- [+] Content of Cell MainGrid_L0_X0_Y2
+ |   |- Actor Count: 6
+ |   |- MinMaxZ: X=100.000 Y=20145.000
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_6_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/2/H4/YZPTYYK1BPE75H2HN1TVAY
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1672359945
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/84/U5KDC2HG3H1UBMXL5U1QJY
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1675877946
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/8/FB/VQ6TZY5XMBFM0YUNO39SK5
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1683351947
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/1/68/F9G0JSG44GIC7TR79860M9
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1692809948
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/MF/CFZ90BK7OMSVFEVA1ADOOZ
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1477478938
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/A/AZ/294YRA3HB2NTBCYM2O4QMK
+ |- [+] Content of Cell MainGrid_L0_X-1_Y0
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=-100.000 Y=100.000
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_4_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/2/LM/37HTZPTKHGM6ZBJJZE90T5
+ |- [+] Content of Cell MainGrid_L0_X-4_Y-2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5807.031 Y=9500.781
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_2_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/2/M5/F2BMMVJPD1OUJQ1BHSO49D
+ |- [+] Content of Cell MainGrid_L0_X0_Y1
+ |   |- Actor Count: 24
+ |   |- MinMaxZ: X=-0.781 Y=22080.000
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C806C6901_1187850063
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/2/VC/ZUD04UC5ERRMYZ4D00LAL3
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1507245939
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/8V/PBSEK11YV2HKBLFV7BH6IW
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_5_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/AP/L4OZMJISOZP7DSLVE1NRCE
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.AICharacter_C_UAID_1C1B0D097C80A56901_1953395143
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/5/UP/NOB4L4GG69EMB9CE13GOO6
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C806B6901_2114213885
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/0B/JRW281V7DENNWWWHKKC2F0
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.BP_FloatIsland_b_C_UAID_1C1B0D097C807F6901_1417694395
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/CN/4M7Q0RII50ASYO3L28RQCZ
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C807F6901_1866987401
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/3/YJ/PFZA2K0CGN2NPOEHVJ1WCS
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C80806901_1264173579
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/1H/Z2SFK9BJK79P2X7UMBQVRA
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.BlockingVolume_UAID_1C1B0D097C809A6901_1692314162
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/8I/TB2Y0ZCZT7J48MBMS6VXLW
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.BlockingVolume_UAID_1C1B0D097C809B6901_1210575339
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/EV/C10PKTOUGE86NX6FSH326A
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1514054940
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/5/FS/K54001VMX1273E79Y9VAMF
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C80A46901_1522183941
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/8/WN/YM6S6ATQOA4JW7L0U6M732
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1760108958
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/8/38/2781KFR5MQ43YLVXOCA3VS
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1761884959
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/F5/CRRDE14EUF5KHX5EHSQL0F
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1763849960
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/YJ/AUKMDFK8D5FVWMOKFGL1N9
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1754227955
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/B/3Y/FMSG5IPSIKELPA3YY0RQFX
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1755715956
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/RU/ELMO0DYRDHUP6NDQW8GWHB
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1757184957
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/5/FJ/B535TXNOP1NWTNM5ICGU30
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1554011943
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/9/A7/VTB4MC3HWA6AK5DHK8W28H
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1578130944
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/9/L5/R5CASRY90VPJC64XDM2OX4
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1460312937
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/VJ/61P8MM0XILGJXB00AFLT27
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1533687942
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/RX/9WLGQG2CN1GE4V23Q1ADOL
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C80A56901_2004359144
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/2/RY/7R0VFNG20OEH7RS8L73LTZ
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.TriggerVolume_UAID_1C1B0D097C80A86901_1622591675
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/S3/7BVCV231PEIBL1ZSTZKIXH
+ |- [+] Content of Cell MainGrid_L0_X-2_Y0
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=0.000 Y=164.844
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_4_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/3/H7/R11VS626ECZFSDGMWBSUJV
+ |- [+] Content of Cell MainGrid_L0_X-3_Y-3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5113.281 Y=7863.281
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_1_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/3/MV/1D4KQVVKY3KITN1AS7770J
+ |- [+] Content of Cell MainGrid_L0_X-3_Y0
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=7.031 Y=4389.844
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_4_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/3/NU/AYX01NLVPM5RHVLZ8XZWLH
+ |- [+] Content of Cell MainGrid_L0_X2_Y-2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=3310.156 Y=11691.406
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_2_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/3/XZ/5FA8IZ34RPH58GONZ0IIFR
+ |- [+] Content of Cell MainGrid_L0_X0_Y0
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=-100.000 Y=100.000
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_4_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/2W/ORMQ7S4XA4H8DNRQM6PUQ3
+ |- [+] Content of Cell MainGrid_L0_X3_Y2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=9205.469 Y=14989.844
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_6_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/AD/VMYJM7YWE6YRTMTOBTLQ0Y
+ |- [+] Content of Cell MainGrid_L0_X3_Y1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5872.656 Y=13596.094
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_5_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/DX/8E8GVCMS69YBOP57GG6IU0
+ |- [+] Content of Cell MainGrid_L0_X-3_Y-1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=17.188 Y=6477.344
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_3_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/FP/L4DHTOEUMG1JWFJ8TA7T8X
+ |- [+] Content of Cell MainGrid_L0_X1_Y-4
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=4950.781 Y=8967.969
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_0_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/TA/8Z6PCKTBGG2ZWX99VTCYBG
+ |- [+] Content of Cell MainGrid_L0_X1_Y0
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=0.000 Y=2303.125
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_4_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/5/MR/ZVZTPPRDFC9G7G52TL6EFJ
+ |- [+] Content of Cell MainGrid_L0_X3_Y3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=8727.344 Y=12871.094
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_7_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/A5/Y62IAL2DLJM2LGW297IG5A
+ |- [+] Content of Cell MainGrid_L0_X-2_Y2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=1284.375 Y=7450.781
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_6_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/NI/FSP1H2AS4QRE8J3B87BIKQ
+ |- [+] Content of Cell MainGrid_L0_X1_Y1
+ |   |- Actor Count: 21
+ |   |- MinMaxZ: X=0.000 Y=20316.325
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_5_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/RP/S6KX8FTMGA7WXJF1CULA3I
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.AICharacter_C_UAID_1C1B0D097C80676901_1930503171
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/8/DQ/5SURFP1DKJOGF2YJT1KO5L
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.BP_FloatIsland_a_C_UAID_1C1B0D097C807F6901_1416078394
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/UR/LZMQFM2UY099RSCFL6HF3K
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C807F6901_1706888400
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/8/FL/HSRXU87HJ0K1HOTFH4D8AQ
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1413607340
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/0T/61NSY4MQXT54ZUHL187QZK
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1420887341
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/9/V7/V4P02NWAL1LZODIAG81A7C
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C809B6901_1440109342
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/MS/XR45HQUBNSS21O6LIXS99L
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A16901_1889324402
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/3/UJ/UDFFR8I0NWN9RVVKACA07U
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1725562949
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/53/TCHQCNLGVPZK67K1UCIJZL
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1731133950
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/L1/6LVMZFXWWEAOK8FR17K1IZ
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1732781951
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/DU/Y3RT0QXKQWNZYVRGW8JBIR
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1736036952
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/1/0L/K2JQ3O7U194VRQ9NNTVF4L
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1737505953
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/3/V5/MD8SP92PUHV2HHVEFKFZGR
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Mortar_C_UAID_1C1B0D097C80A46901_1740521954
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/2W/05HTD9QQXDZTG6ZDEBQL3Z
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1276306138
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/A/43/IRB93SNGAKPMQ5SQJZSAO4
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1316539932
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/A/7E/0HNASQ6ZE9L9PJXJ375BML
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1343223933
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/0/UZ/UK1V2J4S30EHIRNIZRIJFY
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1412503934
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/A/DI/ZXLUEFNPNLN9Y4BPURD60R
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1338422141
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/4/59/4LO5ICET6ZUYPPI9AXKNXX
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1350393142
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/N1/PRFEAZBN4TJOKR5OB2DPNQ
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80AD6901_1733496557
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/8/EU/IMKXIQZ5SUDSS5CZ62L58T
+ |- [+] Content of Cell MainGrid_L0_X-4_Y-1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=966.406 Y=9202.344
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_3_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/T0/NUJPTN6LEYG6NT0891FVM3
+ |- [+] Content of Cell MainGrid_L0_X3_Y-3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=8610.156 Y=11772.656
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_1_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/TX/I7WS6BCGBZK4A05HWST2AG
+ |- [+] Content of Cell MainGrid_L0_X0_Y-3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=106.250 Y=6735.156
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_1_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/XB/0QIAFLNBG78IWAOOGMNLY6
+ |- [+] Content of Cell MainGrid_L0_X2_Y-3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5639.844 Y=10830.469
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_1_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/0P/GAA0ARHQMMDWBCYIROFV86
+ |- [+] Content of Cell MainGrid_L0_X-1_Y1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=-0.781 Y=1284.375
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_5_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/2H/ZQGJJ1F8QGR4Z3K5XB6278
+ |- [+] Content of Cell MainGrid_L0_X-1_Y3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=3127.344 Y=10647.656
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_7_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/4G/ITCSKRLYWY32PDFTND0VHQ
+ |- [+] Content of Cell MainGrid_L0_X-2_Y-4
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=6572.656 Y=11941.406
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_0_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/DE/AH0I63F7JIABBYXDX7K39O
+ |- [+] Content of Cell MainGrid_L0_X-4_Y-3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5449.219 Y=8761.719
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_1_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/DV/OEKZYNDF4QGMJSEORV6S55
+ |- [+] Content of Cell MainGrid_L0_X2_Y2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5341.406 Y=10853.906
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_6_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/DZ/O50XFAH6CCYBXNDYQRW8MM
+ |- [+] Content of Cell MainGrid_L0_X-1_Y-1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=-100.000 Y=100.000
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_3_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/FI/SVPCI566YWQF50Q228LYHN
+ |- [+] Content of Cell MainGrid_L0_X-4_Y0
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=847.656 Y=9271.094
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_4_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/MY/0GPQFZNJIRYTASHV90CZZL
+ |- [+] Content of Cell MainGrid_L0_X1_Y2
+ |   |- Actor Count: 9
+ |   |- MinMaxZ: X=1202.344 Y=19826.850
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_6_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/UI/NKGID6UVFOH19LG15G7V2C
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.BP_FloatIsland_b_C_UAID_1C1B0D097C807F6901_1341292391
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/3/EG/B3T7UDO16C8JFVZZ771G9W
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1179739158
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/79/9105CWNYZE9ZU42KBGVBJ8
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1173353157
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/2/9V/NAMS2LN5RU7P6X9Q5BH2U5
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Collectable_Pickup_BP_C_UAID_1C1B0D097C809A6901_1183954159
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/MY/8VWCBLKB6JDLK8LFUEWZSE
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1287667139
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/5/C1/YDBT1W3DPO1R7K7JJUAO8G
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.PowerUp_Pickup_BP_Child_C_UAID_1C1B0D097C80A56901_1304578140
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/5/Z3/4ASDBFGLTMD894YQ7TN3MZ
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1422757935
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/N4/TBYABPYYVZ8W4KQOONSP9Q
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.Spike_C_UAID_1C1B0D097C80A46901_1432795936
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/1/NX/FZ5ELSKY9PM4CZHFPVP47L
+ |- [+] Content of Cell MainGrid_L0_X3_Y0
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5091.406 Y=9228.906
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_4_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/VN/NJF1QIPIFD7N35F1WU9LOG
+ |- [+] Content of Cell MainGrid_L0_X-1_Y-2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=-0.781 Y=1993.750
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_2_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/W2/PNO7Z3DRMEEARRIMAQ15GE
+ |- [+] Content of Cell MainGrid_L0_X2_Y3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=7785.156 Y=11791.406
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_7_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/8/I3/X8Y8VE0ZOJOEUVH9L5RZB5
+ |- [+] Content of Cell MainGrid_L0_X2_Y-1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=870.312 Y=9125.781
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_3_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/8/WL/33WCYJ4H8IWQFHQUYY91UD
+ |- [+] Content of Cell MainGrid_L0_X-1_Y-3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=142.188 Y=8805.469
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_1_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/A/7S/KCRXAAQ65DHQ4KTZVS6KA6
+ |- [+] Content of Cell MainGrid_L0_X-1_Y-4
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=6453.906 Y=11442.969
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_3_0_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/A/JA/F1WO49MS3GS52UDLFIXH3S
+ |- [+] Content of Cell MainGrid_L0_X-2_Y3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5080.469 Y=13166.406
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_7_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/A/LG/1LSTA7NUIPALW3WH1GUBJ3
+ |- [+] Content of Cell MainGrid_L0_X-4_Y2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5450.781 Y=11130.469
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_6_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/A/LX/1EPFZQ3S57JVTYRWT6C1Y1
+ |- [+] Content of Cell MainGrid_L0_X3_Y-4
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=7522.656 Y=13553.906
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_0_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/B/2A/1QZVZIM8U4XEUNFH2T9LFK
+ |- [+] Content of Cell MainGrid_L0_X2_Y1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=2264.062 Y=9232.031
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_5_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/7X/IS12IOMSAD664QHFTU7WBT
+ |- [+] Content of Cell MainGrid_L0_X-3_Y3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=6619.531 Y=13197.656
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_7_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/DW/Q2EEDESTXT9YF8NVU66LP7
+ |- [+] Content of Cell MainGrid_L0_X1_Y-1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=0.000 Y=3310.156
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_3_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/KQ/40WIKY2ARS3RHU5QP1PWX6
+ |- [+] Content of Cell MainGrid_L0_X-4_Y1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=3900.781 Y=10327.344
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_5_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/Y0/JT1TB9KEYWGKN7J3M16E4K
+ |- [+] Content of Cell MainGrid_L0_X2_Y0
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=893.750 Y=7369.531
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_6_4_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/ZJ/O6A0BVRNDDM5QRNFVFLVBO
+ |- [+] Content of Cell MainGrid_L0_X-2_Y-2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=0.000 Y=5260.156
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_2_2_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/C/ZK/EZCVQ7DOHH2R0D6F7JJO80
+ |- [+] Content of Cell MainGrid_L0_X1_Y-3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=1064.062 Y=6511.719
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_5_1_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/36/Y3DG6KW3HHW1MF2JUO1A8I
+ |- [+] Content of Cell MainGrid_L0_X3_Y-1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=5280.469 Y=11586.719
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_7_3_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/5F/SX214BC7CATQAI2WLICZMJ
+ |- [+] Content of Cell MainGrid_L0_X-3_Y1
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=131.250 Y=8019.531
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_5_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/H8/ECUMK8YUSVA9QCDLXEBBQL
+ |- [+] Content of Cell MainGrid_L0_X-3_Y2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=3219.531 Y=9172.656
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_6_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/TN/CR4Q5RJ125BCG7KHHSG3CA
+ |- [+] Content of Cell MainGrid_L0_X-4_Y-4
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=7269.531 Y=12157.031
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_0_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/D/UT/4QFFFZ2I7V1IZ03KC6PDG2
+ |- [+] Content of Cell MainGrid_L0_X0_Y3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=2080.469 Y=6055.469
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_7_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/M8/W8NMTIRDBMV88GMANGS4VJ
+ |- [+] Content of Cell MainGrid_L0_X-3_Y-2
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=1038.281 Y=8925.781
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_1_2_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/MD/DCZZH1417L6H7JOA9GFYJC
+ |- [+] Content of Cell MainGrid_L0_X0_Y-4
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=4621.094 Y=11314.844
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_4_0_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/MI/PSD9X6FKFUUCCN7HD7ZN0S
+ |- [+] Content of Cell MainGrid_L0_X-4_Y3
+ |   |- Actor Count: 1
+ |   |- MinMaxZ: X=8263.281 Y=13605.469
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.LandscapeStreamingProxy_D7T4VF4LBP34PHV9XOEVM5TIG_1_0_7_0
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/UM/B8B1IGSIYMZXC1DHBRKHVP
+[+] Content of Grid Level 1
+[+] Content of Grid Level 2
+ |- [+] Content of Cell MainGrid_L2_X0_Y0
+ |   |- Actor Count: 5
+ |   |- MinMaxZ: X=11585.136 Y=21536.325
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.BP_FloatIsland_a_C_UAID_1C1B0D097C807F6901_1419343396
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/F/0B/6TT5DUOCJAHTQ7KPOXQA6V
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C806B6901_2063603884
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/6/WF/PKSVUC1Y0QWDI97NJ27BWT
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C805B6901_1627654056
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/9/DA/9VA9MNW64856IZ09OFLOHN
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C807F6901_1465756399
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/E/QZ/1OK0R4NWFGKDDUZ3KPFJ7N
+ |   |- Actor Path: /Game/MP2.MP2:PersistentLevel.StaticMeshActor_UAID_1C1B0D097C80806901_1163837578
+ |   |- Actor Package: /Game/__ExternalActors__/MP2/7/29/DD9WD7CN4D67WAS74DQIDP
+[+] Content of Grid Level 3
+
